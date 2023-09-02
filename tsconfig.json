@@ -1,0 +1,16 @@
+{
+    "angularCompilerOptions": {
+      "enableIvy": false, // Remove this line or use true
+      "compilationMode": "full" // Add this line
+    },
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es6",
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "target": "es5",
+      "allowJs": true,
+      "moduleResolution": "node"
+    }
+  }

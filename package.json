@@ -1,0 +1,33 @@
+{
+  "name": "webpack-fun",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "npx webpack --config webpack.config.js",
+    "pack-lib": "npx webpack --config webpack.lib.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "15.2.0",
+    "@angular/cdk": "15.2.0",
+    "@angular/common": "15.2.0",
+    "@angular/compiler": "15.2.0",
+    "@angular/core": "15.2.0",
+    "@angular/platform-browser": "15.2.0",
+    "@angular/platform-browser-dynamic": "15.2.0",
+    "reselect": "2.5.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "esbuild-loader": "4.0.2",
+    "webpack-node-externals": "3.0.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
